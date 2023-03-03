@@ -1,0 +1,9 @@
+name: Check prerequisites
+
+on: pull_request
+
+jobs:
+  check-changelog:
+    uses: rumannotkazi/rkazi-actions/.github/workflows/changelog.yml@main
+    with:
+      file-name: CHANGELOG.md
