@@ -4,6 +4,7 @@ on: pull_request
 
 jobs:
   check-changelog:
-    uses: rumannotkazi/rkazi-actions/.github/workflows/changelog.yml@main
+    uses: rumannotkazi/rkazi-actions/.github/workflows/changelog.yml@v0.2.0
     with:
-      file-name: CHANGELOG.md
+      file-name: test/sample.md
+    
